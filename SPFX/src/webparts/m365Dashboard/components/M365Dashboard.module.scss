@@ -1,0 +1,24 @@
+@import '~@fluentui/react/dist/sass/References.scss';
+
+.m365Dashboard {
+    padding: 16px;
+}
+
+.card {
+    background: $ms-color-white;
+    border: 1px solid $ms-color-neutralLight;
+    border-radius: 4px;
+    padding: 16px;
+    min-width: 280px;
+    flex: 1 1 280px;
+}
+
+.cardTitle {
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+.cardDetailRow {
+    margin-top: 8px;
+    color: $ms-color-neutralSecondary;
+}

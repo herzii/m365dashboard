@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "m-365-dashboard-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/m365Dashboard/M365DashboardWebPart.js",
+          "manifest": "./src/webparts/m365Dashboard/M365DashboardWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "M365DashboardWebPartStrings": "lib/webparts/m365Dashboard/loc/{locale}.js"
+  }
+}

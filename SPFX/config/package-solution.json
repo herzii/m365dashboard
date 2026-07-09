@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "m-365-dashboard-client-side-solution",
+    "id": "21cb3ded-db27-4b9e-9e1c-5681e685841d",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.23.2"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "M365Dashboard description"
+      },
+      "longDescription": {
+        "default": "M365Dashboard description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "m-365-dashboard Feature",
+        "description": "The feature that activates elements of the m-365-dashboard solution.",
+        "id": "1e80573a-e152-40de-9183-f2726e6bad5b",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/m-365-dashboard.sppkg"
+  }
+}
